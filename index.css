@@ -84,6 +84,7 @@ abbr, acronym {
         font-size: 1.6rem;
         line-height: 1.5;
         font-family:'Roboto Mono', monospace ;
+        
     
     }
     h1{
@@ -128,10 +129,26 @@ abbr, acronym {
         border-radius:50%;
         width:60%
     }
-    .right{
+    .right {
         padding:4%;
         line-height:2;
         position:absolute;
         bottom:20%;
     }
+    .busImage {
+        max-width:10% ;
+        max-height: auto;
+        padding: 10px ;
+    }
+    .fireImage {
+        max-width: 10%;
+        max-height: auto;
+        padding: 10px ;
+    }
+    .footerImage{
+        max-width: 40%;
+        max-height: auto;
+        padding:10px ;
+    }
+
 
