@@ -74,7 +74,7 @@ abbr, acronym {
     *{
         box-sizing:border-box;
         max-width:100%;
-        border:1px solid grey;
+    
     }
     /*General Styles*/
     html{
@@ -90,6 +90,7 @@ abbr, acronym {
     h1{
         font-family: 'Chelsea Market'cursive;
         font-size:5rem:
+        text-align:center;
     }
     section{
         padding:4% 0;
@@ -127,7 +128,7 @@ abbr, acronym {
     }
     .left img{
         border-radius:50%;
-        width:60%
+        width:40%
     }
     .right {
         padding:4%;
@@ -135,20 +136,50 @@ abbr, acronym {
         position:absolute;
         bottom:20%;
     }
+    .firstP {
+        background-color:#DDB9A3;
+
+    }
+   
     .busImage {
         max-width:10% ;
-        max-height: auto;
-        padding: 10px ;
+        max-height: 0 auto;
+        text-align: center ;
+    }
+    .bus {
+        text-align: center;
+    }
+    .thirdP {
+
+     padding:25px;
+        display:inline-block;
+        width:18%;
+        height: auto;
+        font-size: 1.5rem;
     }
     .fireImage {
         max-width: 10%;
         max-height: auto;
-        padding: 10px ;
+        padding: 10px;
     }
+    .fire { 
+        text-align: center;
+    }
+     .secondP{
+        padding:25px;
+        display:inline-block;
+        width:18%;
+        height: auto;
+        font-size: 1.5rem;
+     }
     .footerImage{
         max-width: 40%;
         max-height: auto;
         padding:10px ;
+    }
+    .footer {
+        text-align: center;
+        background-color: #f9e7dc;
     }
 
 
